@@ -1,16 +1,16 @@
-# decorator_shop
+# Decorator shop
+It is a flutter app mainly build as a train on decorator pattern,
+it represents a coffe shop with blenty condiments.
 
-A new Flutter project.
+The idea is inspired by an example of decorator pattern on Head First Design Pattern 2nd edition book by Freeman Robson
 
-## Getting Started
+### Rigestring
+![register](https://user-images.githubusercontent.com/50797015/119211045-83e01800-ba9f-11eb-8921-1de1d411bc45.png)
+### Shop Menu
+![shop](https://user-images.githubusercontent.com/50797015/119211047-85114500-ba9f-11eb-8ea2-2ddfb155c278.png)
+### Home
+![home](https://user-images.githubusercontent.com/50797015/119211044-82aeeb00-ba9f-11eb-8970-828ecbf7c0e0.png)
 
-This project is a starting point for a Flutter application.
+These are just UI build by figma not Adobe XD. My apology, I am a linux fan.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+wait for the main coded front-end.
