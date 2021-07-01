@@ -16,19 +16,36 @@ class _RegisterState extends State<Register> {
       body: Container(
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
+        constraints: BoxConstraints.expand(),
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('decorator_assets/Best-Coffee-Mugs-Reviews-2020-1'),
-            fit: BoxFit.cover,),),
+            image: AssetImage(
+                'decorator_assets/Best-Coffee-Mugs-Reviews-2020-1.jpg'),
+            fit: BoxFit.cover,
+          ),
+        ),
         child: Stack(children: <Widget>[
           // Image background
-          Column(children: <Widget>[
-            Text(
-              'Decorator',
-              style: TextStyle(
-                  fontSize: 92, foreground: Paint()..shader = linearGradient),
-            ),
-          ]),
+          Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: 132, horizontal: 12),
+                  child: Center(
+                    child: GradientDecorator(
+                      'Decorator',
+                      gradient: LinearGradient(
+                        colors: [
+                          Color(0xFFD5D0CC),
+                          Color(0xFFD5D0CC),
+                          Color(0x00D5CDCC),
+                        ]
+                      ),
+                    ),
+                  ),
+                ),
+
+              ]),
         ]),
       ),
     );
